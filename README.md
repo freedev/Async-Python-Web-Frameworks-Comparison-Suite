@@ -176,13 +176,11 @@ time curl http://localhost:8000/
 
 ### Development Workflow
 ```bash
-```bash
 cd flask-basic  # or any other project
 uv shell        # Activates the virtual environment
 gunicorn app:app --bind 0.0.0.0:8000  # For Flask projects
 # or uvicorn app:app --port 8000       # For FastAPI/Quart projects
 exit           # Exit the uv shell
-```
 ```
 
 ### Adding New Frameworks
@@ -208,8 +206,8 @@ This project welcomes contributions! Ideas:
 
 ## 👥 Authors
 
-- Vincenzo D'Amore - [@freedev](https://github.com/freedev)
-- Enrico - [@edge7](https://github.com/edge7)
+- **Vincenzo D'Amore** - [@freedev](https://github.com/freedev)
+- **Enrico** - [@edge7](https://github.com/edge7)
 
 ---
 
