@@ -1,0 +1,9 @@
+[project]
+name = "flask-basic-test"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.10"
+dependencies = [
+    "flask[async]>=2.3.0",
+    "gunicorn>=21.0.0",
+]

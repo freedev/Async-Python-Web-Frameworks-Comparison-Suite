@@ -1,0 +1,11 @@
+[project]
+name = "flask-asgi-test"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.10"
+dependencies = [
+    "asgiref>=3.6.0",
+    "flask>=2.3.0",
+    "gunicorn>=21.0.0",
+    "uvicorn[standard]>=0.20.0",
+]
